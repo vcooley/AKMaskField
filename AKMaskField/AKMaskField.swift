@@ -707,7 +707,7 @@ open class AKMaskField: UITextField, UITextFieldDelegate  {
 
 //  MARK: - AKMaskFieldDelegate
 
-public protocol AKMaskFieldDelegate: class {
+@objc public protocol AKMaskFieldDelegate: class {
     
     /**
      
