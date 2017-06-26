@@ -246,7 +246,7 @@ open class AKMaskField: UITextField, UITextFieldDelegate  {
     
     /// The receiver’s delegate.
     
-    open weak var maskDelegate: AKMaskFieldDelegate?
+    @objc open weak var maskDelegate: AKMaskFieldDelegate?
     
     //  MARK: - Getting the Mask Field status
     
