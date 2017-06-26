@@ -45,7 +45,7 @@ import UIKit
 
  */
 
-@objc open class AKMaskField: UITextField, UITextFieldDelegate  {
+open class AKMaskField: UITextField, UITextFieldDelegate  {
     
     //  MARK: - Configuring the Mask Field
     
@@ -246,7 +246,7 @@ import UIKit
     
     /// The receiver’s delegate.
     
-    @objc open weak var maskDelegate: AKMaskFieldDelegate?
+    open weak var maskDelegate: AKMaskFieldDelegate?
     
     //  MARK: - Getting the Mask Field status
     
@@ -707,7 +707,7 @@ import UIKit
 
 //  MARK: - AKMaskFieldDelegate
 
-@objc public protocol AKMaskFieldDelegate: class {
+public protocol AKMaskFieldDelegate: class {
     
     /**
      
